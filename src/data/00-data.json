@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Registration page",
+    "url": "https://material.playwrightvn.com/01-xpath-register-page.html",
+    "expected": "User Registration"
+  },
+  {
+    "name": "Product page",
+    "url": "https://material.playwrightvn.com/02-xpath-product-page.html",
+    "expected": "Simple E-commerce"
+  },
+  {
+    "name": "Todo list page",
+    "url": "https://material.playwrightvn.com/03-xpath-todo-list.html",
+    "expected": "To-Do List"
+  }
+]
