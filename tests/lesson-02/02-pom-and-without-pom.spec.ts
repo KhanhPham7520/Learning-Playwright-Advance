@@ -1,6 +1,4 @@
 import { test, expect, APIRequestContext } from "@playwright/test";
-import { title } from "node:process";
-
 
 type CreateTodoBody = {
   title: string,
@@ -25,7 +23,6 @@ export class TodoApiPage {
 
     return response.json();
   }
-
 
   async createTodo(body: CreateTodoBody) {
     const response = await this.request.post(`${this.baseUrl}/todos.php`, {

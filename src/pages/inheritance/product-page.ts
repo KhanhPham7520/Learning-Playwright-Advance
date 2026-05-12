@@ -1,4 +1,4 @@
-import { DashboardPage } from "./dashboard-page";
+import { DashboardPage } from "../dashboard-page";
 
 export class ProductPage extends DashboardPage {
     method5() { };

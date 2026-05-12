@@ -1,6 +1,6 @@
 import { Locator, Page } from "@playwright/test";
-import { NavBarComponent } from "../../src/pages/navbar.component";
-import { ActionBarCompnent } from "../../src/pages/action-bar.component";
+import { NavBarComponent } from "../../src/pages/components/navbar.component";
+import { ActionBarCompnent } from "../../src/pages/components/action-bar.component";
 
 export class LoginPage {
     navBar: NavBarComponent;
